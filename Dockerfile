@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-alpine
 WORKDIR /app
 
 # Copy the application's jar to the container
-COPY target/device-management-1.0.0.jar /app/app.jar
+COPY target/device-management-1.0.0-exec.jar /app/app.jar
 
 # Expose the port that the application will run on
 EXPOSE 8080
