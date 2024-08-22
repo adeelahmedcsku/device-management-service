@@ -51,3 +51,26 @@ After starting the application, you can view the Swagger API documentation at:
 http://localhost:8080/swagger-ui/index.html
 
 Swagger UI provides a user-friendly interface to explore and interact with the API endpoints.
+
+
+## Run Docker Container
+### Build the Docker Image
+
+After ensuring that your JAR file has the correct manifest, build the Docker image:
+
+```
+docker build -t device-management-service .
+```
+
+Run the container using:
+```
+docker run -p 8080:8080 device-management-service
+
+```
+### Swagger API Documentation
+#### Access Swagger UI
+
+After starting the application, you can view the Swagger API documentation at:
+
+http://localhost:8080/swagger-ui/index.html
+
