@@ -48,6 +48,6 @@ By default, the application will run on http://localhost:9091. You can access it
 
 After starting the application, you can view the Swagger API documentation at:
 
-http://localhost:9091/swagger-ui/index.html
+http://localhost:8080/swagger-ui/index.html
 
 Swagger UI provides a user-friendly interface to explore and interact with the API endpoints.
